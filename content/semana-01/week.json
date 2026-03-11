@@ -1,0 +1,48 @@
+{
+	"number": 1,
+	"title": "Fundamentos de Transformers",
+	"description": "Nesta semana, exploramos os artigos seminais que definiram a arquitetura Transformer e suas aplicações mais impactantes.",
+	"publishedAt": "2026-03-09",
+	"papers": [
+		{
+			"id": "paper-01",
+			"title": "Attention Is All You Need",
+			"authors": ["Vaswani, A.", "Shazeer, N.", "Parmar, N.", "Uszkoreit, J.", "Jones, L.", "Gomez, A. N.", "Kaiser, Ł.", "Polosukhin, I."],
+			"arxivId": "1706.03762",
+			"abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms.",
+			"order": 1
+		},
+		{
+			"id": "paper-02",
+			"title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+			"authors": ["Devlin, J.", "Chang, M.-W.", "Lee, K.", "Toutanova, K."],
+			"arxivId": "1810.04805",
+			"abstract": "We introduce BERT, designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context.",
+			"order": 2
+		},
+		{
+			"id": "paper-03",
+			"title": "Language Models are Few-Shot Learners",
+			"authors": ["Brown, T.", "Mann, B.", "Ryder, N.", "Subbiah, M."],
+			"arxivId": "2005.14165",
+			"abstract": "We demonstrate that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches.",
+			"order": 3
+		},
+		{
+			"id": "paper-04",
+			"title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+			"authors": ["Dosovitskiy, A.", "Beyer, L.", "Kolesnikov, A.", "Weissenborn, D."],
+			"arxivId": "2010.11929",
+			"abstract": "We show that a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks.",
+			"order": 4
+		},
+		{
+			"id": "paper-05",
+			"title": "Training language models to follow instructions with human feedback",
+			"authors": ["Ouyang, L.", "Wu, J.", "Jiang, X.", "Almeida, D."],
+			"arxivId": "2203.02155",
+			"abstract": "Making language models bigger does not inherently make them better at following instructions. We show an avenue for aligning language models with user intent via fine-tuning with human feedback.",
+			"order": 5
+		}
+	]
+}
